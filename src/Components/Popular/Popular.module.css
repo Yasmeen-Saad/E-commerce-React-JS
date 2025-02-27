@@ -1,0 +1,27 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    padding-bottom: 80px;
+}
+.popularHeading{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 500;
+}
+.popularHr{
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popularItem{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
